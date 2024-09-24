@@ -1,0 +1,27 @@
+.todo-item {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10px; 
+    position: relative; 
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+    margin-right: 16px; 
+    margin-left: 100px;
+    color: rgb(4, 253, 253);
+    font-size: 25px;
+  }
+  
+  .button-container {
+    position: absolute; 
+    right: 0;
+    display: flex; 
+    gap: 10px;
+    width: 30%;
+  }
+  .strike-through {
+    text-decoration: line-through;
+    color: #ff0000;
+}
